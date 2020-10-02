@@ -8,7 +8,7 @@ include 'misc/pagehead.php';
   <?php require 'misc/pullnav.php'; ?>
     <div class="container logindiv">
         <div class="col-sm-4"></div>
-        <div class="col-sm-4">
+        <div class="col-sm-4 pull-right">
             <form class="text-center" name="loginform" method="post" action="ajax/checklogin.php">
                 <h3 class="form-signin-heading"><?php echo $title;?></h3>
                 <br>
@@ -28,7 +28,7 @@ include 'misc/pagehead.php';
             <p class="text-center"><a href="forgotpassword.php">Forgot Password?</a></p>
             <p class="text-center">or <a href="signup.php">Create an Account</a></p>
         </div>
-        <div class="col-sm-4"></div>
+        
     </div>
     <!-- The AJAX login script -->
     <script src="js/login.js"></script>
